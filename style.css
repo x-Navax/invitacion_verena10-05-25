@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#bg {
+    background-color: #000000;
+}
+header {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén uno debajo del otro */
+    align-items: center;   /* Centra horizontalmente los elementos */
+}
+main {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén uno debajo del otro */
+    align-items: center;   /* Centra horizontalmente los elementos */
+}
+
+.lolaN {
+    width: 96%;
+    height: auto;
+    text-align: center;
+}
+
+.frase {
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fecha{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.ubiRio{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center; 
+    margin-top: 10px;
+}
+.vestimenta{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 10px; 
+}
+.alias{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.asistencia {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2rem;
+    color: #BC0000;
+    text-align: center;
+    margin-top: -320px;
+}
+
+
+.botonW img {
+    width: 10rem;
+}
+
+.botonW {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos específicos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    #bg {
+        height: auto; /* Permite que el contenido se ajuste al tamaño */
+        padding: 1rem;
+    }
+
+    .asistencia {
+        font-size: 1.5rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .botonW img {
+        width: 8rem; /* Reduce el tamaño del botón de WhatsApp */
+    }
+}
+
+@media (max-width: 480px) {
+    .asistencia {
+        font-size: 1.2rem; /* Tamaño de fuente aún menor para pantallas muy pequeñas */
+    }
+
+    .botonW img {
+        width: 6rem; /* Ajusta el tamaño del botón de WhatsApp */
+    }
+}
